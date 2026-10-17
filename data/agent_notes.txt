@@ -1,0 +1,11 @@
+Multi-agent AI systems divide a complex task into smaller tasks handled by specialized agents.
+
+A Search Agent identifies passages relevant to a user's question from the supplied documents.
+
+A Summary Agent combines selected passages into a concise extractive summary with source labels.
+
+A Verification Agent reports whether matching source passages were found. Finding matching passages is not independent fact-checking.
+
+A Report Agent organizes the question, summary, evidence status, and source passages into a structured report.
+
+This offline prototype works only with user-provided notes and bundled demo text. It does not use a large language model, search the live web, or independently verify scientific claims.
