@@ -1,0 +1,13 @@
+Retrieval-Augmented Generation (RAG) combines information retrieval with text generation to produce responses grounded in external knowledge.
+
+A typical RAG workflow includes document collection, text processing, retrieval of relevant passages, and answer generation.
+
+The retrieval component identifies information related to the user's question from a document collection.
+
+Retrieved evidence can help reduce unsupported claims, but it does not guarantee that every generated answer is factually correct.
+
+Source attribution allows users to inspect the documents and passages used to support a response.
+
+The quality of a RAG system depends on document quality, retrieval relevance, and the reliability of the answer generation process.
+
+The current Multi-Agent AI Research Assistant is an offline extractive prototype that uses keyword-based retrieval rather than a full language-model-powered RAG pipeline.
